@@ -45,3 +45,27 @@
 .friend .chat__timestamp {
     font-size: 12px;
 }
+
+.friend .friend__now-listening {
+    padding: 5px 10px;
+    border-radius: 30px;
+    border: 2px solid rgb(61, 218, 116);
+    font-size: 14px;
+}
+
+.friend__now-listening span {
+    opacity: 0.5;
+}
+
+.friend__now-listening i {
+    font-size: 12px;
+}
+
+.friend__add-button {
+    display: flex;
+    padding: 10px 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5F5;
+    border-radius: 5px;
+}
