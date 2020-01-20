@@ -30,6 +30,12 @@
     margin-bottom: 20px;
 }
 
+.suggestion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 .suggestion .suggestion__title {
     font-size: 12px;
