@@ -31,6 +31,8 @@
 }
 
 .suggestion {
+    width: 80px;
+    height: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -38,11 +40,13 @@
 }
 
 .suggestion .suggestion__title {
+    display: block;
     font-size: 12px;
     margin-top: 15px;
 }
 
 .suggestion .suggestion__icon {
+    display: block;
     background-color: #fce006;
     padding: 10px;
     border-radius: 10px;
