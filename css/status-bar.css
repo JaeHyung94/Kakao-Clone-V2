@@ -1,8 +1,8 @@
 .status-bar {
+    margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
-    opacity: 0.7;
+    color: #4E4E4E;
 }
 
 .status-bar i {
@@ -11,4 +11,15 @@
 
 .status-bar .status-bar__battery-level {
     margin-left: 5px;
+}
+
+.s-bar {
+    position: fixed;
+    top: 0px;
+    padding-top: 10px;
+    max-width: 549px;
+    width: 100%;
+    padding-right: 40px;
+    background-color: white;
+    z-index: 2;
 }

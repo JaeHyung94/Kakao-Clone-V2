@@ -128,7 +128,7 @@
 }
 
 .message {
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     display: flex;
     align-items: flex-start;
 }
@@ -157,6 +157,7 @@
 }
 
 .sent-message {
+    margin-bottom: 80px;
     align-self: flex-end;
 }
 
